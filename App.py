@@ -29,7 +29,7 @@ def jaccard_distance(y_true, y_pred):
     return -iou(y_true_flatten, y_pred_flatten)
 
 # App UI
-st.title("🧠 Mulltiple Scelerosis WEB-App")
+st.title("🧠 Brain-MRI-Segmentation WEB-App")
 
 # Load model (local file)
 model = load_model("unet_brain_mri_seg.hdf5", custom_objects={
